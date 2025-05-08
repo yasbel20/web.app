@@ -1,0 +1,78 @@
+/* Fondo de la página */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 1.2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .login-container {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    padding: 3rem;
+    border-radius: 32px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+
+  }
+  .login-container h2{
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    margin-bottom: 10%;
+  }
+  /* Inputs */
+  .login-container input {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    border-radius: 32px; /* antes: 10px */
+
+    background-color: hwb(0 100% 0%);
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    font-style: italic;
+    text-align: center;
+    
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 15px;
+
+  }
+  
+  /* Placeholder cursiva */
+  input::placeholder {
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  /* Botón */
+  button[type="submit"] {
+    background-color: hsl(34, 46%, 58%);
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: lighter;
+  }
+  
+  /* Hover del botón */
+  button[type="submit"]:hover {
+    background-color: lab(81.72% 5.69 25.39);
+    color:black;
+  }
+  
+  /* Mensaje de error */
+  .error-message {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
